@@ -152,6 +152,19 @@ line-height: 24.2px;
 text-align: left;
 margin-left: 10px;
 }
+.amount{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+.amount p , h4{
+    font-family: Inter;
+    text-align: left;
+    color: #666666;
+}
+.amount h4{
+    color: black;
+}
 @media screen and (max-width:1000px) {
     .body .text h1{
         font-size: 30px;

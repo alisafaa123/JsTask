@@ -16,7 +16,7 @@ function showitems(list) {
             </div>`;
     });
     document.getElementById("item").innerHTML = text;
-}
+    document.getElementById("amount").innerHTML = list.length;}
 
 showitems(items);
 

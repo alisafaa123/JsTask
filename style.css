@@ -4,8 +4,9 @@
 }
 .container{
     max-width: 1500px;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: auto;
 }
 .contain{
     height: 70px;
@@ -109,6 +110,13 @@ img{
     height: 48px;
     border-radius: 8px ;  
 }
+.adding{
+    display: none;
+    margin-top: 100px;
+}
+.adding button{
+    width: 100%;
+}
 .body .item{
     display: flex;
     flex-direction: column;
@@ -143,4 +151,48 @@ font-weight: 400;
 line-height: 24.2px;
 text-align: left;
 margin-left: 10px;
+}
+@media screen and (max-width:1000px) {
+    .body .text h1{
+        font-size: 30px;
+    }
+    .body .text p{
+        font-size: 13px;
+    }
+    .contain{
+        height: 50px;
+    }
+    .contain img{
+        height: 15px;
+    }
+    .header .option a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px) {
+    .body .text h1{
+        font-size: 25px;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+
+/* Home page*/
+
+@media screen and (max-width:800px) {
+    .adding{
+        display: block;
+    }
+    .body .insert button{
+        display: none;
+    }
+    .body input{
+        width: 100% ;
+    }
+    .body input{
+        margin-top: -10px;
+    }
 }

@@ -4,8 +4,8 @@
 }
 .container{
     max-width: 1500px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .contain{
     height: 70px;
@@ -15,6 +15,9 @@
 }
 .header{
     border-bottom: 1px solid #EEEEEE
+}
+img{
+    width: 100%;
 }
 .option{
     display: flex;
@@ -71,4 +74,68 @@
     line-height: 21.78px;
     color: #0000FF;
 }
+/*Home page*/
+.body .insert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.body input{
+    width: calc(100% - 150px);
+    height: 48px;
+    border-radius: 8px ;
+    opacity: 0px;
+    border: none;
+    border: 2px solid #EEEEEE;
+    padding-left: 10px;
+    color: #666666;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+}
+.body button{
+    color: #FFFFFF;
+    background: #0000FF;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    width: 130px;
+    height: 48px;
+    border-radius: 8px ;  
+}
+.body .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.body .item .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F6F6F6;
+    width: 100%;
+    height: 72px;
+    border-radius: 8px ;
+}
+.body .item .card img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.body .item .card p{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: left;
+margin-left: 10px;
+}
